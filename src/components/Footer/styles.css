@@ -1,5 +1,31 @@
 footer{
     display: flex;
     margin-top: 4rem;
-    margin-bottom: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-card);
+    width: 100vw;
+}
+
+footer .logo{
+    width: 20rem;
+}
+
+footer aside{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-align: center;
+}
+
+.projects .meninas{
+    width: 7rem;
+    height: 7rem;
+    margin-right: 2rem;
+}
+
+.projects .gurias{
+    width: 15rem;
+    height: 7.5rem;
+    object-fit: cover;
 }
