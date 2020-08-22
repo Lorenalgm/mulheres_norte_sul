@@ -75,13 +75,46 @@
 
 .section-speakers{
     margin-top: 10rem;
+    text-align: center;
+}
+
+.speakers{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
 #speakers-title{
     margin-bottom: 4rem;
+}
+
+
+@media (min-width: 700px){    
+
+    .section-hero{
+        margin-bottom: 20rem;
+    }
+
+    .hero-content{
+        margin-top: 15rem;
+    }
+
+    .section-about{
+        flex-direction: row;
+    }
+
+    .section-about p{
+        max-width: 80%;
+    }
+
+    .section-about img{
+        width: 50%;
+    }
+
+    .speakers{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
 }

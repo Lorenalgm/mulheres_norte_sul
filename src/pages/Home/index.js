@@ -41,26 +41,28 @@ function Home(){
             
             <section className="section-speakers">
                 <h1 id="speakers-title">Palestrantes</h1>
-                <Speaker 
-                    name="Luana Mendes" 
-                    position="Engenheira de software na IBM" 
-                    profile="https://avatars0.githubusercontent.com/u/19291466?s=460&v=4"
-                    link="https://forms.gle/KGVqppoL3otP7MKC6" 
-                />
+                <div className="speakers">
+                    <Speaker 
+                        name="Luana Mendes" 
+                        position="Engenheira de software na IBM" 
+                        profile="https://avatars0.githubusercontent.com/u/19291466?s=460&v=4"
+                        link="https://forms.gle/KGVqppoL3otP7MKC6" 
+                    />
 
-                <Speaker 
-                    name="Paula Lima" 
-                    position="Professora na UNIFAP" 
-                    profile="https://avatars0.githubusercontent.com/u/19291466?s=460&v=4"
-                    link="https://forms.gle/KGVqppoL3otP7MKC6" 
-                />
+                    <Speaker 
+                        name="Paula Lima" 
+                        position="Professora na UNIFAP" 
+                        profile="https://avatars0.githubusercontent.com/u/19291466?s=460&v=4"
+                        link="https://forms.gle/KGVqppoL3otP7MKC6" 
+                    />
 
-                <Speaker 
-                    name="Fernanda Silva" 
-                    position="Desenvolvedora no Google" 
-                    profile="https://avatars0.githubusercontent.com/u/19291466?s=460&v=4"
-                    link="https://forms.gle/KGVqppoL3otP7MKC6" 
-                />
+                    <Speaker 
+                        name="Fernanda Silva" 
+                        position="Desenvolvedora no Google" 
+                        profile="https://avatars0.githubusercontent.com/u/19291466?s=460&v=4"
+                        link="https://forms.gle/KGVqppoL3otP7MKC6" 
+                    />
+                </div>
 
             </section>
 
