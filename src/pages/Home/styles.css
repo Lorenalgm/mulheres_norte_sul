@@ -1,0 +1,31 @@
+.section-hero{
+    background-image: image('../../assets/background.png');
+    background-position: center;
+    background-size: 'cover';
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.section-hero .hero-content h1{
+    font-size: 5rem;
+    color: var(--color-white);
+}
+
+.section-hero .hero-content h2{
+    color: var(--color-highlight);
+    margin-bottom: 4rem;
+}
+
+.hero-content{
+    margin-top: 18rem;
+}
+
+.button{
+    background: var(--color-button); 
+    color: var(--color-button-text);
+    padding: 1.3rem 6rem;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 0.7rem;
+    text-decoration: none; 
+}

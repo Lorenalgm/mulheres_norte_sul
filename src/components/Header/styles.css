@@ -1,0 +1,25 @@
+header {
+    color: rgb(233, 19, 19);
+    width: 95vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    font-size: 1.6rem;
+    padding: 1.3rem ;
+    margin-right: 0.5rem;
+}
+
+
+header img {
+    width: 100px;
+}

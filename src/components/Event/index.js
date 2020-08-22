@@ -12,7 +12,7 @@ function Event(props){
                     <h2>{props.type}</h2>
                     <h1>{props.title}</h1>
                 </div>
-                <a className="button" href="#">Participar</a>
+                <a className="button" href={props.link}>Participar</a>
             </div>
         </div>
     );
