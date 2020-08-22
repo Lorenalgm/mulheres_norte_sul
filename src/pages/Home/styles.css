@@ -38,7 +38,7 @@
 }
 
 .section-about{
-    margin-top: 10rem;
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -94,7 +94,7 @@
 @media (min-width: 700px){    
 
     .section-hero{
-        margin-bottom: 20rem;
+        margin-bottom: 10rem;
     }
 
     .hero-content{
@@ -102,6 +102,7 @@
     }
 
     .section-about{
+        margin-top: 1rem;
         flex-direction: row;
     }
 
