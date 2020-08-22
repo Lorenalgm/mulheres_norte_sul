@@ -1,0 +1,13 @@
+.speaker img{
+    width: 15rem;
+    border-radius: 10rem;
+    border: solid 0.2rem var(--color-button);
+}
+
+.speaker{
+    margin-bottom: 6rem;
+}
+
+.speaker h4{
+    font-weight: normal;
+}

@@ -40,6 +40,7 @@ function Home(){
             </section>
             
             <section className="section-speakers">
+                <h1 id="speakers-title">Palestrantes</h1>
                 <Speaker 
                     name="Luana Mendes" 
                     position="Engenheira de software na IBM" 

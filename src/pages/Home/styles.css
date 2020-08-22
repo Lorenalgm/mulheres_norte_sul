@@ -27,7 +27,13 @@
     font-weight: bold;
     font-size: 2rem;
     border-radius: 0.7rem;
-    text-decoration: none; 
+    text-decoration: none;
+    cursor: pointer; 
+    transition: 2ms;
+}
+
+.button:hover{
+    opacity: 90%;
 }
 
 .section-about{
@@ -65,4 +71,17 @@
 
 #calendar-title{
     margin-bottom: 3rem;
+}
+
+.section-speakers{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#speakers-title{
+    margin-bottom: 4rem;
 }
