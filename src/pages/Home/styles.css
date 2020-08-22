@@ -17,7 +17,7 @@
 }
 
 .hero-content{
-    margin-top: 18rem;
+    margin-top: 6rem;
 }
 
 .button{
@@ -28,4 +28,29 @@
     font-size: 2rem;
     border-radius: 0.7rem;
     text-decoration: none; 
+}
+
+.section-about{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-about .about-content h1{
+    font-size: 3rem;
+    color: var(--color-highlight);
+    margin-bottom: 2rem;
+}
+
+.section-about .about-content p{
+    font-size: 1.8rem;
+    color: var(--color-white);
+    margin-bottom: 2rem;
+}
+
+
+.section-about img{
+    width: 80%;
 }

@@ -4,6 +4,7 @@ import Speaker from '../../components/Speaker';
 import Event from '../../components/Event';
 import Footer from '../../components/Footer';
 import './styles.css';
+import woman from '../../assets/woman.png';
 
 function Home(){
     return(
@@ -13,7 +14,7 @@ function Home(){
 
                 <div className="hero-content">
                     <h1>Mulheres na computação</h1>
-                    <h2>De noite a sul</h2>
+                    <h2>De norte a sul</h2>
 
                     <a className="button" href="#">Quero participar</a>
                 </div>
@@ -28,7 +29,7 @@ function Home(){
                     <span>100% online e gratuito</span>
                 </div>
                 
-                <img src="" alt="Vetor de mulher utilizando computador" />
+                <img src={woman} alt="Vetor de mulher utilizando computador" />
             </section>
             
             <section className="section-calendar">
