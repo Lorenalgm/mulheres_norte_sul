@@ -16,10 +16,10 @@ function Home(){
                     <h1>Mulheres na computação</h1>
                     <h2>De norte a sul</h2>
 
-                    <a className="button" href="#">Quero participar</a>
+                    <a className="button" href="#events">Quero participar</a>
                 </div>
             </section>
-
+            <a id="about"></a>
             <section className="section-about">
                 <div className="about-content">
                     <h1>Sobre</h1>
@@ -31,14 +31,13 @@ function Home(){
                 
                 <img src={woman} alt="Vetor de mulher utilizando computador" />
             </section>
-            
+            <a id="events"></a>
             <section className="section-calendar">
                 <h1 id="calendar-title">Agenda de eventos</h1>
                 <Event date="28/08" time="18h" type="Bate papo" title="Projetos de incentivo à meninas na computação" link="https://forms.gle/fKUpzLhooazfBb616" />
                 <Event date="28/08" time="18h" type="Bate papo" title="Projetos de incentivo à meninas na computação" link="https://forms.gle/fKUpzLhooazfBb616" />
                 <Event date="28/08" time="18h" type="Bate papo" title="Projetos de incentivo à meninas na computação" link="https://forms.gle/fKUpzLhooazfBb616" />
             </section>
-            
             <section className="section-speakers">
                 <h1 id="speakers-title">Palestrantes</h1>
                 <div className="speakers">
