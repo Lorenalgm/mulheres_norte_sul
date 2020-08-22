@@ -33,13 +33,13 @@ function Home(){
             </section>
             <a id="events"></a>
             <section className="section-calendar">
-                <h1 id="calendar-title">Agenda de eventos</h1>
+                <h1 id="calendar-title" className="title">Agenda de eventos</h1>
                 <Event date="28/08" time="18h" type="Bate papo" title="Projetos de incentivo à meninas na computação" link="https://forms.gle/fKUpzLhooazfBb616" />
                 <Event date="28/08" time="18h" type="Bate papo" title="Projetos de incentivo à meninas na computação" link="https://forms.gle/fKUpzLhooazfBb616" />
                 <Event date="28/08" time="18h" type="Bate papo" title="Projetos de incentivo à meninas na computação" link="https://forms.gle/fKUpzLhooazfBb616" />
             </section>
             <section className="section-speakers">
-                <h1 id="speakers-title">Palestrantes</h1>
+                <h1 id="speakers-title" className="title">Palestrantes</h1>
                 <div className="speakers">
                     <Speaker 
                         name="Luana Mendes" 

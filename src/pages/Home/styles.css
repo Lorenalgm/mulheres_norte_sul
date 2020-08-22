@@ -18,7 +18,11 @@
 }
 
 .hero-content{
-    margin-top: 6rem;
+    margin-top: 12rem;
+}
+
+.title{
+    font-size: 3rem;
 }
 
 .button{
@@ -77,6 +81,7 @@
 .section-speakers{
     margin-top: 10rem;
     text-align: center;
+    margin-bottom: 12rem;
 }
 
 .speakers{
@@ -112,6 +117,10 @@
 
     .section-about img{
         width: 50%;
+    }
+
+    .section-speakers{
+        margin-top: 17rem;
     }
 
     .speakers{
