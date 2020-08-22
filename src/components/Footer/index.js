@@ -1,10 +1,11 @@
 import React from 'react';
 import './styles.css';
+import logo from '../../assets/logomulheres.png';
 
 function Footer(){
     return(
         <footer>
-            <img src="" alt="Logo de mulheres na computação de norte a sul" />
+            <img src={logo} alt="Logo de mulheres na computação de norte a sul" />
 
             <aside>
                 Realização

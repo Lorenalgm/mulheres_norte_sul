@@ -1,9 +1,10 @@
 .section-hero{
-    background-image: image('../../assets/background.png');
-    background-position: center;
-    background-size: 'cover';
-    background-repeat: no-repeat;
+    width: 100vw;
+    background-image: url('../../assets/background.png');
+    background-size: cover;
     text-align: center;
+    background-repeat: no-repeat;
+    height: 90vh;
 }
 
 .section-hero .hero-content h1{

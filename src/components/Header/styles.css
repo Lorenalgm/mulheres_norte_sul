@@ -1,10 +1,13 @@
 header {
-    width: 95vw;
+    width: 100vw;
     height: 15vh;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    
+    margin: 0 auto;
+    padding: 6rem  4.4rem 0 4.4rem;
 }
 
 header ul {
@@ -14,11 +17,13 @@ header ul {
 
 header ul li {
     font-size: 1.6rem;
-    padding: 1.3rem ;
+    padding: 0 1.3rem ;
     margin-right: 0.5rem;
 }
 
 
 header img {
-    width: 100px;
+    width: 17.5rem;
+    
+    align-content: flex-end;
 }

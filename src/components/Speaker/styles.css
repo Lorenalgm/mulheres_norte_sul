@@ -1,7 +1,9 @@
 .speaker img{
     width: 15rem;
-    border-radius: 10rem;
+    height: 15rem;
+    border-radius: 50%;
     border: solid 0.2rem var(--color-button);
+    object-fit: cover;
 }
 
 .speaker{

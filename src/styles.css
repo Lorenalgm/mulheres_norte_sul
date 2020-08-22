@@ -34,10 +34,6 @@ body{
     background: var(--color-background);
 }
 
-.container{
-    width: 90vw;
-}
-
 body, input, button, textarea{
     font: 500 1.6rem Lato ;
     color: var(--color-text);
@@ -47,4 +43,15 @@ body, input, button, textarea{
     :root{
         font-size: 62.5%;
     }
+}
+
+section {
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
