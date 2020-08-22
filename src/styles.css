@@ -12,6 +12,7 @@ ul li {
 :root {
     font-size: 60%;
     --color-button: #E3CE0F;
+    --color-button-hover: rgb(184, 166, 12);
     --color-button-inative: #C4C4C4;
     --color-button-text: #422B72;
     --color-card: #2F1A40;

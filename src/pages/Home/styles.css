@@ -38,7 +38,7 @@
 }
 
 .button:hover{
-    opacity: 90%;
+    background: var(--color-button-hover);
 }
 
 .section-about{
