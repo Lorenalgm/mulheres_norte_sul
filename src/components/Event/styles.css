@@ -1,12 +1,15 @@
 .event{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 6rem;
+    text-align: center;
 }
 
 .event .event-time{
     margin-right: 1rem;
+    margin-bottom: 1rem;
 }
 
 .event .event-time h1{
@@ -15,15 +18,46 @@
 
 .event-content{
     background: var(--color-card);
-    padding: 3rem;
+    padding: 3rem 3.5rem;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+.event-content .event-title{
+    margin-bottom: 2rem;
 }
 
 .event-content .event-title h2{
     font-size: 1.5rem;
     font-weight: normal;
+    color: var(--color-button-inative);
 }
 
 .event-content .event-title h1{
-    font-size: 1rem;
+    font-size: 2rem;
+}
+
+@media (min-width: 700px){    
+    .event{
+        flex-direction: row;
+    }
+
+    .event-content {
+        display: flex;
+        flex-direction: row;
+        padding: 5.5rem 3.5rem;
+    }
+
+    .event-content .event-title {
+        padding-right: 5rem;
+    }
+    
+
+
+    .event-content .event-title h2{
+        text-align: left;
+    }
 }
