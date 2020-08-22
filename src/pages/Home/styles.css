@@ -54,3 +54,15 @@
 .section-about img{
     width: 80%;
 }
+
+.section-calendar{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#calendar-title{
+    margin-bottom: 3rem;
+}

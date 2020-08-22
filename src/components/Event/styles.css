@@ -1,0 +1,29 @@
+.event{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.event .event-time{
+    margin-right: 1rem;
+}
+
+.event .event-time h1{
+    color: var(--color-highlight);
+}
+
+.event-content{
+    background: var(--color-card);
+    padding: 3rem;
+    display: flex;
+}
+
+.event-content .event-title h2{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.event-content .event-title h1{
+    font-size: 1rem;
+}

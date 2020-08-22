@@ -33,6 +33,7 @@ function Home(){
             </section>
             
             <section className="section-calendar">
+                <h1 id="calendar-title">Agenda de eventos</h1>
                 <Event date="28/08" time="18h" type="Bate papo" title="Projetos de incentivo à meninas na computação" />
                 <Event date="28/08" time="18h" type="Bate papo" title="Projetos de incentivo à meninas na computação" />
                 <Event date="28/08" time="18h" type="Bate papo" title="Projetos de incentivo à meninas na computação" />
